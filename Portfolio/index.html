@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Umair's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="https://kit.fontawesome.com/a9e65a0a93.js" crossorigin="anonymous"></script>
+    <style>
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      html{
+        scroll-behavior: smooth;
+      }
+
+      body {
+        background-color: rgb(176, 92, 92);
+        color: antiquewhite;
+        font-family: "Nunito Sans", sans-serif;
+      }
+
+      ul {
+        color: antiquewhite;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(22, 62, 65);
+        border-radius: 0%;
+        height: 80px;
+      }
+
+      .right {
+        font-size: 2rem;
+      }
+
+      .right b i{
+        margin-left: 20px;
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin-left: 55px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+
+        color: white;
+        transition: 0.3s;
+      }
+
+      nav ul li a:hover {
+        text-decoration: none;
+        color: black;
+      }
+
+      .pic {
+        display: flex;
+        position: relative;
+        left: -110px;
+      }
+
+      .FirstSection {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .FirstSection div {
+        margin-left: 140px;
+        width: 40%;
+      }
+
+      .rightsection {
+        font-size: xx-large;
+        margin-top: 140px;
+        font-weight: bolder;
+        text-transform: capitalize;
+      }
+
+      .leftsection {
+        margin-top: 30px;
+      }
+
+      .formal {
+        height: 700px;
+        width: 500px;
+        border-radius: 10%;
+      }
+
+      .color {
+        color: rgb(34, 4, 4);
+        -webkit-text-stroke: 1px #fff;
+        font-weight: bolder;
+      }
+
+      .animation {
+        color: rgb(35, 2, 58);
+        -webkit-text-stroke: 1px #c97171;
+        font-weight: bolder;
+        text-transform: uppercase;
+        animation: text 5s 1;
+      }
+
+      @keyframes text {
+        0% {
+          color: black;
+          margin-bottom: -40px;
+        }
+        30% {
+          letter-spacing: 23px;
+          margin-bottom: -40px;
+        }
+        85% {
+          letter-spacing: 8px;
+          margin-bottom: -40px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div id="header"></div>
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
+
+        <div class="right"><b>Welcome! To My Portfolio<i class="fa-solid fa-address-book"></i> </b></div>
+        <!--<img src="pfolio.png.png" class="pic" />-->
+        <div class="left"></div>
+        <ul class="nav_item">
+          <li class="nav_list"><a href="#header"> Home </a></li>
+          <li class="nav_list"><a href="#about"> About </a></li>
+          <li class="nav_list"><a href="#skilling"> Skills </a></li>
+          <li class="nav_list"><a href="#exp"> Experience </a></li>
+          <li class="nav_list"><a href="#Contact"> Contact </a></li>
+        </ul>
+
+        <div class="hamburger">
+          X
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="FirstSection">
+        <div class="rightsection">
+          I am <br /><span class="color"><h1>Umair Shaikh</h1></span>
+          <h4>& I'm much interested</h4>
+          <h4>in <span class="animation">Web Developing</span></h4>
+        </div>
+
+        
+
+        
+        
+
+        <div class="leftsection">
+          <img src="img.png.jpg" class="formal" />
+        </div>
+      </section>
+    </main>
+
+    <div class="wrap">
+     <a href="Umair Resume.pdf" download="Resume"><button class="but"><i class="fa-solid fa-download"></i>Resume </button></a>
+    </div>
+
+  
+
+    <div id="about"></div>
+
+    <div class="rightcolumn">
+      <h1>About Me</h1>
+      <img src="point.png" class="point" />
+    </div>
+    <!--<div class="aboutme"><p>I am Umair Shaikh currently pursuing BE in Computer Engineering with Honours in Data Science.<br> I like to learn new new things and technologies.That's why I have gone  to statelevel <br> project competition and web development competition and much interested in sports. <br>I have also done  internships on MySQL, Python, HTML, CSS and Javascript and Data Science </p></div>-->
+    <div class="container">
+      <div class="card">
+        <!--<img src="pic.jpg" class="pic" />-->
+      <div class="imgbx"><img src="pic.jpg"/></div>
+      <div class="content"><b><h4>Computer Engineer with Honours in Data Science</h4></b>
+      <p> Hello, Umair Shaikh currently pursuing BE in Computer Engineering with
+        Honours in Data Science.I like to learn new new things and
+        technologies.That's why I was gone to statelevel project competition
+        and web development competition and much interested in sports.I
+        have also done internships on MySQL, Python, HTML, CSS and Javascript
+        and Data Science</p>
+      </div>
+        <!--<h2>Computer Engineer with Honours in Data Science</h2>
+        <p>
+          Hello, Umair Shaikh currently pursuing BE in Computer Engineering with
+          Honours in Data Science. <br />I like to learn new new things and
+          technologies.That's why I was gone to statelevel project competition
+          <br />
+          and web development competition and much interested in sports. <br />I
+          have also done internships on MySQL, Python, HTML, CSS and Javascript
+          and Data Science
+        </p>-->
+      </div>
+      </div>
+      <!--Skill Page-->
+      <div id="skilling"></div>
+     <h1 class="heading"> My Skills</h1>
+     <div class="skills-area">
+      <div class="skill">
+        <div class="skill-title">HTML/HTML5</div>
+        <div class="skill-bar"></div>
+        <div class="html skill-fill">
+          <span class="skill-percent">90%</span>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-title">CSS3</div>
+        <div class="skill-bar"></div>
+        <div class="css skill-fill">
+          <span class="skill-percent">80%</span>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-title">JAVASCRIPT</div>
+        <div class="skill-bar"></div>
+        <div class="js skill-fill">
+          <span class="skill-percent">50%</span>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-title">MySQL</div>
+        <div class="skill-bar"></div>
+        <div class="mysql skill-fill">
+          <span class="skill-percent">80%</span>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-title">Java</div>
+        <div class="skill-bar"></div>
+        <div class="java skill-fill">
+          <span class="skill-percent">35%</span>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-title">Python</div>
+        <div class="skill-bar"></div>
+        <div class="python skill-fill">
+          <span class="skill-percent">50%</span>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-title">Data Science</div>
+        <div class="skill-bar"></div>
+        <div class="datascience skill-fill">
+          <span class="skill-percent">50%</span>
+        </div>
+      </div>
+
+
+     </div>
+
+     <!--Experience-->
+
+     <div id="exp"></div>
+
+     <h2 class="achievements"><span class="Under">Certificates</span>  & <span class="Under">Experience</span></h2>
+
+     <div class="slidershow">
+      <div id="slider">
+        <img src="Images/img1.jpg" class="pics">
+        <img src="Images/img2.jpg" class="pics">
+        <img src="Images/img3.jpg" class="pics">
+        <img src="Images/img4.jpg" class="pics">
+
+      </div>
+      <div class="indicators">
+        <span id="btn1" class="button"></span>
+        <span id="btn2" class="button"></span>
+        <span id="btn3" class="button"></span>
+        <span id="btn4" class="button"></span>
+      </div>
+
+      </div>
+
+      <!----contact Page-->
+
+      <div id="Contact">
+        <div class="cont">
+          <div class="row">
+            <div class="contactleft">
+              <h1 class="subtitle">CONTACT ME</h1>
+              <p><i class="fa-solid fa-envelope"></i>mohammedumairshaikh38@gmail.com</p>
+              <p><i class="fa-solid fa-phone-volume"></i>+91 9665011972</p>
+              <div class="socialicons">
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+      <div class="contactright">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p class="copy">Copyright © Umair. Made this  <i class="fa-solid fa-user"></i>  portfolio</p>
+  </div>
+</div>
+
+      
+      <script>
+        var slide = document.getElementById("slider")
+        var btn1 = document.getElementById("btn1")
+        var btn2 = document.getElementById("btn2")
+        var btn3 = document.getElementById("btn3")
+        var btn4 = document.getElementById("btn4")
+
+        const ham = document.querySelector(".hamburger");
+        const navItem = document.querySelector(".nav_item");
+
+        ham.addEventListener("click", () => {
+          navItem.classList.toggle("active")
+        })
+
+        btn1.onclick = function(){
+          slide.style.transform="translateX(0px)";
+        }
+
+        btn2.onclick = function(){
+          slide.style.transform="translateX(-500px)";
+        }
+
+        btn3.onclick = function(){
+          slide.style.transform="translateX(-208%)";
+        }
+
+        btn4.onclick = function(){
+          slide.style.transform="translateX(-310%)";
+        }
+
+      </script>
+
+   
+       
+      
+      
+  </body>
+</html>
